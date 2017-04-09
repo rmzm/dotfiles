@@ -1,0 +1,4 @@
+yum install epel-release # installs extra packages for enterprise linux, for stuff like htop
+yum install $program
+yum whatprovides $file
+yum list installed

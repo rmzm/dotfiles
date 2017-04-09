@@ -1,0 +1,7 @@
+- u+s: (mode 4000) set user id on execution // new files in
+       this directory will be owned by the directory owner
+- g+s: (mode 2000) set group id on execution
+- +t:  (mode 1000) set the sticky bit, directory contents may only
+       be added, not renamed/deleted, except by owner of the files
+- +X:  like +x, only affets dirs, in accordance with umask
+- A=B: reset the permissions for A to B according to umask

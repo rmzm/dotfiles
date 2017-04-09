@@ -1,0 +1,7 @@
+# to take over the channel
+/msg nickserv identify $pw
+/msg chanserv recover $channel
+# to ban someone
+/mode $channel +b nick!user@host
+
+modes on freenode: https://freenode.net/using_the_network.shtml

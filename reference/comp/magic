@@ -1,0 +1,13 @@
+0x8C0D[04] = GPG
+0x7f454c46 ".ELF" = <ELF> binary
+0x25504446 "%PDF" = <PDF>
+0x4c554b53babe "LUKS.." = <LUKS> partition
+0x474946383961 "GIF87a" = <GIF>
+0xcafebabe  = <Java> Bytecode, 0xcafed00d when compressed
+0xffd8      = <JPEG>
+0x2321 "#!" = <shebang>
+0x504b "PK" = <ZIP>
+0x1F8B0800  = <GZIP>
+0xefbbbf = UTF-8 Byte Order Mark
+0xfeff   = UTF-16 BOM for <BE> (default) 0xffef for <LE>
+"ey[IJKL]"  = A Base64-encoded JSON object

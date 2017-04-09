@@ -1,0 +1,5 @@
+Protection domains enforced by hardware through CPU modes
+- Ring 0: Kernel
+- Ring 1: Device Drivers (though apparently in linux drivers are ring0)
+- Ring 2: Privileged Code (User Programs with I/O access permissions)
+- Ring 3: Unprivileged Code (User Programs)

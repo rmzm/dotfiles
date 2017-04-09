@@ -1,0 +1,6 @@
+$ R
+> png("out.png")
+> plot(sin, -pi, pi)   OR   source("script.r")
+
+1. rstudio installieren
+2. ggplot2 package installieren

@@ -1,0 +1,7 @@
+# This creates a self-signed certificate
+# 1. Create the server private key
+openssl genrsa -out $out.key 2048
+# 2. Create the certificate signing request (CSR)
+openssl req -new -key $in.key -out $out.csr
+# 3. Sign the certificate using the private key and CSR
+openssl x509 -req -days 365 -in $in.csr -signkey $in.key -out $out.crt

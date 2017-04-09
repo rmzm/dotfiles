@@ -1,0 +1,9 @@
+FROM centos:6.6
+MAINTAINER hut
+
+ENV DEBUG_LEVEL=256
+EXPOSE 389 636
+VOLUME [ "/data" ]
+
+RUN yum -y update && \
+    yum install -y slapd ldap-utils

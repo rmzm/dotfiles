@@ -1,0 +1,14 @@
+ssh level$N@io.smashthestack.org
+- io
+    - level1: level1
+    - level2: 3ywr07ZFw5IsdKzU
+    - level3: IFd92yzOnSMv9tkX
+        - solution: ./level03 asdaasdaasdaasdaasdaasdaasdaasdaasdaasdaasdaasdaasdaasdaasdaasdaasdaaaaaaaaat
+    - level4: nSwmULj2LpDnRGU2
+        - solution: whoami konstruieren, welches /home/level5/.pass catted
+    - level5: LOoCy5PbKi63qXTh
+
+- logic
+    - level1: cat /home/level1/.bash_history
+    - password: ach3sa6F
+

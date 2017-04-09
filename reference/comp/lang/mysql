@@ -1,0 +1,1 @@
+mysqldump [ <database_name> | --all-databases ] > out.sql

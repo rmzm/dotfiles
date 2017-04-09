@@ -1,0 +1,2 @@
+nmap -A 
+nmap -p443 --script=ssl-heartbleed $host

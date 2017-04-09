@@ -1,0 +1,16 @@
+21  FTP               873 rsync
+22  SSH               989/990 FTPS
+23  TELNET            1194  OpenVPN
+25  SMTP              3306  MySQL
+53  DNS               6000  Xorg
+80  HTTP              6600  MPD
+88  Kerberos          6667  IRC
+389 LDAP              6697  IRC+SSL, commonly
+443 HTTPS             8118  privoxy
+464 Kerberos PW       8123  polipo
+546 DHCPv6-Client     9418  git
+547 DHCPv6-Server     33434 traceroute (+1 each hop)
+749 Kerberos Admin
+
+Range: 1-65535  (2^16-1)
+https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers

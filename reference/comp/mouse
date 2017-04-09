@@ -1,0 +1,2 @@
+# To hide the mouse cursor:
+unclutter -idle 2 -root

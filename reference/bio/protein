@@ -1,0 +1,76 @@
+5 Klassen: alpha, beta, alpha/beta, alpha+beta, membrane
+
+| Abbreviations: p→protein, TM=transmembrane
+| ACh=Acetylcholine, 5HT=Serotonin, NA=Noradrenaline, A=Adrenaline
+######## Immune System ########
+- Defensin: opens pores in pathogens to let nutrients flow out, affects
+  bacteria, fungi and many types of viruses
+- CCR5 [C-C chemokine RECP type 5]: membrane P @leukocytes, target of HIV
+- Lysozyme: hydrolyzes peptidoglycans in bacteria cell walls @tears @saliva
+  @mucus @milk, used to dissolve bacteria to extract content
+| https://en.wikipedia.org/wiki/Lysozyme
+- θ-Defensin: dormant variant of defensin, would inhibit HIV-1 entry
+| http://online.liebertpub.com/doi/abs/10.1089/088922203322493049
+######## Metabolism ########
+- CYP3A4 [Cytochrome P450 3A4]: oxidizes xenobiotics @liver, e.g. bergamottin
+| https://en.wikipedia.org/wiki/CYP3A4
+- Lactase: catalyzes lactose→galactose+glucose
+- MAO-A: antidepressant, breaks down alkaloids/monoamines, need to follow diet
+| variants cause aggressive behavior ("warrior gene")
+- MAO-B: no apparent use, involved in alzheimer's & parkinson's disease
+- TIM [Triose-phosphate Isomerase]: doubles efficiency of glycolysis
+| cat. DHAP [Dihydroxyacetone phosphate] <-> D3P [D-glyceraldehyde 3-phosphate]
+- ATP synthase: Mitochondrial TM protein catalyzing ADP+Pi→ATP
+######## Structural ########
+- Keratin: constituent of hair/nails/horns/epidermis
+- Collagen: fibrous P, main component of connective tissue, 30% of body protein
+- Histone: DNA coils around it, forming nucleosomes
+- Actin: constituent of microfilaments to move cell, provide transportation
+  routes, contract muscles
+| https://en.wikipedia.org/wiki/Actin
+- Neurexin: presynaptic adhesion protein, glues synapses together
+- Neuroligin: postsynaptic adhesion protein, glues synapses together
+######## Signaling ########
+- Insulin: promotes absorbtion of glucose into skeletal muscle & fat tissue
+    - release triggered by glucose, branched-chain AAs (leucine, arginine)
+    - produced by beta cells @pancreas
+    - inhibits production of glucose @liver
+| https://en.wikipedia.org/wiki/Insulin
+- Enkephalin: class of endorphins: Tyr-Gly-Gly-Phe-{Met,Leu}, δ-opioid agonists
+- Cytokine: Category of P important in cell signaling
+- AChE [Acetylcholinesterase]: enzyme hydrolyzing ACh in neuromuscular
+  junctions & cholinergic synapses
+- VMAT [Vesicular Monoamine Transporter]: VMAT1 @neuroendocrine, VMAT2 @CNS/PNS
+- Synapsin: regulates number of synaptic vesicles used in exocytosis
+- Klotho: TM protein involved in aging & sensitivity to insulin
+| https://en.wikipedia.org/wiki/Klotho_(biology)
+| https://en.wikipedia.org/wiki/Acetylcholinesterase
+######## Reproduction ########
+DNA ligase: forms covalent bonds to close sugar-phosphate bonds in DNA
+######## Plumbing ########
+- Telomerase: adds TTAGGG to 3' end of DNA, junk data protecting it
+- Transposase: cuts&pastes movable DNA sequences ("transposons") elsewhere
+- Superoxide Dismutase: antioxidants most effective against superoxide
+    - SOD1: soluble
+    - SOD2: mitochondrial
+    - SOD3: extracellular
+- PKA [Protein Kinase A]: diverse family, activated by cAMP
+- Porin: beta-barrel TM, mitochondrial/bacterial, molecules diffuse through
+- Nuclease: breaks phosphodiester bonds between nucleotides @ nucleic acids
+- Hemoglobin: iron/oxygen-binding P in blood
+- Neuroglobin: iron/oxygen-binding P in nervous system
+- Myoglobin: iron/oxygen-binding protein in muscle tissue
+- Na+/K+-ATPase: "Sodium-Potassium Pump", moves 2K+ in, 3Na+ out of cell
+  to help maintaining -70mV resting potential, using 1ATP
+- Myosin: pulls on actin to contract muscles
+- Dynein: motor P transporting vesicles along microtubules, consuming ATP
+| walks towards the minus-end of the microtubule
+######## Non-human ########
+- TAL: binds to DNA sequences to activate|repress transcription
+| aka Transcription activator-like effector
+| naturally secreted by plant pathogen Xanthomonas, binds to genes in
+| rice/tomatos/etc, activating genes that aid in bacterial infection
+| The plants evolved defenses by having other genes similar to the targets
+- RuBisCO: adds CO2 to Ribulose 1,5-biphosphate, 1st step of carbon fixation
+  The most plentiful protein on earth, 50% of soluble leaf protein in C3 plants
+|######## Uncategorized ########

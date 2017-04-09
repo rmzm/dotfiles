@@ -1,0 +1,2 @@
+# Test if a host is up
+ping -c 1 "$host" >& /dev/null

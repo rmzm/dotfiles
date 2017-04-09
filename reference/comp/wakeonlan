@@ -1,0 +1,2 @@
+wakeonlan <MACADDRESS>
+etherwake [-D] <MACADDRESS>

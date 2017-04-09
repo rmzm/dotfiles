@@ -1,0 +1,10 @@
+flatten matrix: apply(append, args(A))
+sum a list: lsum(a, a, mylist), or: lreduce("+", [1,2,3])
+generate list: makelist(concat(x,i), i, 6)
+
+blocks: foo(arg1, arg2) := block(var1: arg1+arg2, myresult)
+norm of a vector: mat_norm(v, frobenius)
+
+dgesv(A, b): Solve a linear equation Ax=b. (load(lapack))
+
+Cross Product: matrix([5, 5], [-1, 7]) . matrix([...])

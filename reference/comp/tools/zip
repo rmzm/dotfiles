@@ -1,0 +1,1 @@
+zip -P password -r $outfile.zip $infile.txt

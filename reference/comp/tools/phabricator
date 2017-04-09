@@ -1,0 +1,6 @@
+start daemons with:
+    /var/www/virtual/igem/phabricator/phabricator/bin/phd start
+
+setup instructions: https://secure.phabricator.com/book/phabricator/article/installation_guide/
+enable prototype apps like calendar:
+    bin/config set phabricator.show-prototypes true

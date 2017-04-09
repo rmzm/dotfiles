@@ -1,0 +1,49 @@
+Species interesting in research:
+
+- Thale Cress
+    - Plantae.angiosperm.eudicot.rosid.brassicales.brassicaceae.arabidopsis:thaliana
+    - model organism since early 1900s
+    - one of the smallest genome among plants
+        - 5 chromosomes
+        - 157 mega base pairs
+        - 27,000 genes
+        - 35,000 proteins (thru alternative splicing)
+    - diploid
+    - first plant genome to be sequenced (in 2000)
+    - small size
+    - young seedlings are translucent
+- Zebrafish
+    - Animalia.chordata.actinopterygii.cypriniformes.cyprinidae.danio:rerio
+    - vertebrate -> more similar to humans than e.g. fruit flies
+    - their embryos develop outside their mother and are mostly translucent
+    - high reproduction rate (each pair 200-300 fertilised eggs per week)
+    - 70% genes in common w/ humans, 74% human-disease-causing genes in zebrafish
+    - used in cancer research
+- Cattle
+    - Animalia.chordata.mammalia.theria.eutheria.cetartiodactyla.bovidae.bovinae.bos:taurus
+- C. reinhardtii
+    - Plantae.chlorophyta.chlorophyceae.chlamydomonadales.chlamydomonadaceae.chlamydomonas:reinhardtii
+    - algae with an eye spot
+- C. elegans
+    - Animalia.nematoda.chromadorea.rhabditida.rhabditidae.caenorhabditis.elegans
+    - model organism
+    - transparent
+- Slime Mold
+    - eukaryota.protozoa.amoebozoa.conosa.mycetozoa.dictyostelia.dictyosteliida.dictyosteliidae.dictyostelium:discoideum
+    - model organism
+    - simple life cycle
+    - transitions from unicellular amoeba to multicellular slug into a fruiting body
+    - unique asexual life cycle
+    - genome sequenced in 2005
+        - 34 Mb haploid genome
+        - 6 chromosomes
+        - 12,500 proteins
+- Fruit Fly
+    - animalia.arthropoda.insecta.diptera.drosophilidae.drosophila.sophophora.melanogaster
+    - Drosophila Melanogaster
+- E. coli
+    - Bacteria.proteobacteria.gammaproteobacteria.enterobacteriaceae.escherichia:coli
+- Hepatitis C Virus
+    - Group IV.Flaviviridae.hepacivirus.Hepatitis C virus
+- Homo Sapiens
+    - animalia.chordata.mammalia.primate.haplorhini.hominidae.homo:sapiens

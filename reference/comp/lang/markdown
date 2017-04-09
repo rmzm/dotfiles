@@ -1,0 +1,15 @@
+# Headers:
+H1     H2     # H1     ## H2     ### H3
+===    --- 
+> a blockquote
+> > nested blockquote
+    Code blocks are indented with 4 spaces or 1 tab
+--------------- # <hr />
+*emphasis* _same_  **strong emphasis**  __dito__  \*escaped\*
+`code`, though you can use ```multiple backticks```
+
+![alternative text](image url)   # images
+[link text](link destination)
+[daringfireball.net][] hosts the whole [syntax spec][1]!
+  [daringfireball.net]: http://daringfireball.net "title"
+  [1]: http://daringfireball.net/projects/markdown/syntax

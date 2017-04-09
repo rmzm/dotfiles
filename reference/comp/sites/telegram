@@ -1,0 +1,11 @@
+to backup, run:
+$ telegram-cli --json -P 9009
+$ cd repos/telegram-history-dump
+$ ./telegram-history-dump.rb
+
+the programs can be found here:
+* https://www.haykranen.nl/2014/12/02/howto-backup-your-telegram-chats/
+* https://github.com/vysheng/tg
+* https://github.com/tvdstaaij/telegram-history-dump
+---------
+https://github.com/unsigned-nerd/telegram-secret-group-chat

@@ -1,0 +1,9 @@
+# speed up audio
+ffmpeg -i $in -filter:a "atempo=1.33" -vn $out
+
+ffmpeg -i /home/hut/repos/plasmahut/vids/plasmavid-5.ogv -ss 00:00:01 -t 52 -i '/home/archive/music/soundtrack/Final Fantasy V/cd1/01-Ahead on Our Way.mp3' -c:v copy -c:a vorbis -strict experimental newvid.ogv
+
+# lossless screen recording
+ffmpeg -f x11grab -r 25 -s 1024x768 -i :0.0 -c:v huffyuf output.mkv
+# Lossy
+ffmpeg -f x11grab -r 25 -s 1024x768 -i :0.0 -c:v qtrle output.mov

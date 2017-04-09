@@ -1,0 +1,2 @@
+MPD_HOST=$ip
+MPD_PORT=$port

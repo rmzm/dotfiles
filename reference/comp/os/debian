@@ -1,0 +1,3 @@
+dpkg -S $filename  # find packages owning that file
+dpkg -L $package   # list files of a package
+apt-file search $pattern  # find packages containing a file matching that pattern

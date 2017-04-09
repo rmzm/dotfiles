@@ -1,0 +1,3 @@
+I(X) = -log(P(X))   # I = Information content;
+                    # how surprising is an occurance of X?
+H(X) = sum(P(X) * I(X)) = sum(P(X) * -log(P(X)))  # Entropy

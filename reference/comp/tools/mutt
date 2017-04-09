@@ -1,0 +1,4 @@
+http://www.mutt.org/doc/manual/manual-4.html
+tag all mails matching pattern: T
+apply operations on all tagged files: ;<operation>
+delete duplicate mail: T~=^J;D^J

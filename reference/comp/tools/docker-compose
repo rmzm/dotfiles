@@ -1,0 +1,9 @@
+name:
+    image: foo/bar
+    environment:
+        - PASSWORD=s3cr3t
+    volumes:
+        - "/host/system/directory:/some/path/in/container"
+    ports:
+        - "88:88/udp"
+        - "749:749"

@@ -1,0 +1,1 @@
+sudo su -s /bin/sh -g taskd taskd --command 'TASKDDATA=/srv/taskd taskd '

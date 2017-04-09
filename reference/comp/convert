@@ -1,0 +1,5 @@
+catdoc $in.doc > $out.txt
+ebook-cvonert $in.epub $out.txt # uses calibre
+convert $in.jpg $out.pdf
+ffmpeg -i $in.m4a -acodec libmp3lame -vn $out.mp3
+convert $in.png -resize '25%x25%' $out.png

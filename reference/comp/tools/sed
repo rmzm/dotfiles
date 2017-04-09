@@ -1,0 +1,19 @@
+.       | match any char
+^       | matches beginning of pattern space
+$       | matches end of pattern space
+\N      | backreference
+*       | match >=0 instances of the preceding RE
+\+      | match >0 instances of preceding RE
+\?      | matches 0-1 instances of the preceding RE
+\{i\}   | matches exactly i instances of preceding RE
+\{i,j\} | matches i-j (inclusive) instances of preceding RE
+\{i,\}  | matches >=i instances of preceding RE
+\(re\)  | groups RE as a whole
+[list]  | matches chars in that list
+[^list] | matches anything but chars in that list
+re1\|re2| matches either re1 or re2
+\char   | matches char where char is one of "n*.[^$\"
+pro-tip: by using `sed -r`, you don't need to escape "?+(){}".
+| https://www.gnu.org/software/sed/manual/sed.html
+
+sed '/$pattern/d' -i $file    # deletes lines matching a pattern

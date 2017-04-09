@@ -1,0 +1,6 @@
+#!/bin/sh
+for i in `seq 0 255`; do
+    printf "\E[1;38;5;%dm%4d" $i $i;
+    [ $(((i + 1)% 12)) -eq 0 ] && echo
+done
+echo

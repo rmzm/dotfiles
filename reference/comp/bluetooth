@@ -1,0 +1,16 @@
+bluetooth: https://wiki.archlinux.org/index.php/Bluetooth
+sudo /etc/init.d/bluetooth start
+sudo bluetooth-agent $pin
+hcitool scan
+sudo rfcomm connect hci0 $MAC_ADDRESS
+sudo modprobe fuse
+obexfs -b $phone /mountpoint
+
+
+~1 sudo lsmod | grep bt
+btusb                  45056  0
+btbcm                  16384  1 btusb
+btintel                16384  1 btusb
+bluetooth             458752  4 btbcm,btusb,btintel
+usbcore               200704  8 uas,btusb,usb_storage,ehci_hcd,ehci_pci,usbhid,xhci_hcd,xhci_pci
+

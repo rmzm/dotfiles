@@ -1,0 +1,1 @@
+echo mail content | mail -s subject <mail>

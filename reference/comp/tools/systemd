@@ -1,0 +1,9 @@
+systemctl {enable,disable} service  # enable/disable service on bootup
+systemctl {start,stop,restart} service # the obvious
+systemctl reload service # reload the configuration of a service
+systemctl daemon-reload # reload systemd, scanning for new or changed units
+systemctl {reboot,poweroff,suspend,hibernate,hybrid-sleep}
+
+systemd-analyze dot > out.dot && neato out.dot -Gsep=+20 -Goverlap=false -Tpng -o out.png
+
+/usr/lib/systemd/system/*.service

@@ -1,0 +1,3 @@
+1AU = 1.5e11m             # astronomical unit
+1G  = 6.67384e-11N(m/kg)² # F = G * (m₁m₂)/r² (Gravi.Const)
+<Apsis> = <Aphelion> (planet furthest from the sun) & <Perihelion> (closest)

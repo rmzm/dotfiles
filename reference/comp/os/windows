@@ -1,0 +1,7 @@
+msconfig
+dxdiag
+shutdown -s -f -t $seconds
+autosketch = drawing program
+taskkill /im /f fallout3.exe
+bcdedit /set testsigning on # windows 7 aktivierung (als admin)
+help taskkill

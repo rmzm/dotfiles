@@ -1,0 +1,43 @@
+== Cyrillic ==
+а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+а б ц д е ф г х и ё к л м н о п   р с т у   в   ю з  й ж ё ч ш щ ъ ы ь э я 
+
+standalone: bdfijklmt
+s/c -> c/ц 
+g/г -> r/p -> p/п -> n/н -> h/х -> ?
+u/y -> y/й
+
+== Katakana ==
+A アァカガサザタダナハバパラマワヤャ
+I イィキギシジチヂニヒビピリミ
+U ウゥクグスズツヅヌフブプルム　ユュン
+E エェケゲセゼテデネヘベペレメ
+O オォコゴソゾトドノホボポロモヲヨョ
+　　　K G S Z T D N H B P R M W Y 　N
+
+== Hiragana ==
+A あぁかがさざただなはばぱらまわやゃ
+I いぃきぎしじちぢにひびぴりみゐ
+U うぅくぐすずつづぬふぶぷるむ　ゆゅん
+E えぇけげせぜてでねへべぺれめゑ
+O おぉこごそぞとどのほぼぽろもをよょ
+　　　K G S Z T D N H B P R M W Y 　N
+
+ゎゔゕゖ
+゛゜ゝゞゟ
+
+== Greek ==
+Αα  Alpha     Νν  Nu
+Ββ  Beta      Ξξ  Xi
+Γγ  Gamma     Οο  Omicron
+Δδ  Delta     Ππ  Pi
+Εε  Epsilon   Ρρ  Rho
+Ζζ  Zeta      Σσς Sigma
+Ηη  Eta       Ττ  Tau
+Θθ  Theta     Υυ  Upsilon
+Ιι  Iota      Φφ  Phi
+Κκ  Kappa     Χχ  Chi
+Λλ  Lambda    Ψψ  Psi
+Μμ  Mu        Ωω  Omega

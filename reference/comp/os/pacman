@@ -1,0 +1,3 @@
+invalid signature -> pacman-key --refresh-keys
+
+pacman-key -r $keyid  # adds unofficial key

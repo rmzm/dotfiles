@@ -1,0 +1,7 @@
+- tools for binary analysis
+    - peda [python exploit development assistance for GDB]
+        - enable with: echo 'source /usr/share/peda/peda.py' >> .gdbinit
+    - ida pro (windows only)
+    - hopper (mac/linux)
+- images
+    - http://fotoforensics.com/

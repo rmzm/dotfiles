@@ -1,0 +1,3 @@
+mount /dev/sda1 /mnt
+grub-install --boot-directory /mnt/boot /dev/sda
+grub-install --target=x86_64-efi --efi-directory=$ESP_MOUNT --bootloader-id=grub

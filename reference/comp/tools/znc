@@ -1,0 +1,7 @@
+/msg *controlpanel help
+
+AddNetwork <name>
+
+/query *status  (auf dem neuen network)
+AddServer <username> <server> [+]<port> <pass>
+

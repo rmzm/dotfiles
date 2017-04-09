@@ -1,0 +1,4 @@
+<k> = <R>/<N_A>                  # Boltzmann's constant
+<R> = 8.3144621(75) J/mol/K
+  Gas constant (named after Regnaut)
+<N_A> =                      # Avogadro's Number

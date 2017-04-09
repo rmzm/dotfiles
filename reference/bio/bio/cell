@@ -1,0 +1,36 @@
+file:animcell.jpg
+- Plasma membrane: Single phospholipid bilayer enclosing the cell.
+- Nucleus[1]: Membrane-bound container of DNA
+  - Nucleolus[n]: Nonmembranous structure synthesizing ribosomal RNA and
+    assembling it into ribosomes.  A nucleus has >=1 nucleoli.
+  - Nuclear envelope: Double phospholipid bilayer membrane enclosing the
+    nucleus. Perforated with pores. Continuous with ER.
+  - Chromatin: DNA-Protein-Mush, visible as chromosomes during cell division.
+- Endoplasmatic Reticulum[1]: network of membranous sacs and tubes, continuous
+  with the nuclear envelope, involved in membrane synthesis
+    - Smooth: Synthesizes lipids, membrane, steroids.  Enzymes here help to
+      detoxify the cell from drugs -> involved in drug tolerance.  Stores Ca^2+
+    - Rough: Attached ribosomes which synthesize proteins that are guided into
+      the ER tubules for folding and guided to the transitional ER for export.
+      All the membrane proteins for endomembrane use and secretory proteins are
+      synthesized here.
+    - Transitional ER: wraps secretory proteins into vesicles
+- Ribosomes[LOTS]: small, spherical complexes that make proteins.
+  Free in cytosol or bound to rough ER or nuclear envelope.
+- Golgi Apparatus[1]: Modifies, sorts, envelops and secretes cell products.
+  Organized into stacks of 40~100 flat membranous sacs (cisternae) which are
+  connected in mammals and independent in plants.  Yeast have >1 Golgi.
+- Mitochondria[1~?k]: Powerhouses of the cell that generates ATP. w/ bacterial
+  heritage and own set of genes.  Enclosed in two phospholipid bilayers.
+  Forms a dynamic, branched, tubular network inside the cell.
+- Lysosome[n]: Digestive organelle where macromolecules are hydrolyzed
+- Centrosome[0-1]: Pair of centrioles, place where microtubules are initiated
+- Cytoskeleton: Network of fibers that organizes structures and activities,
+  consisting of Microtubules(25nm), Microfilaments (2 intertwined strands of
+  actin, 7nm), Fibrous Proteins (e.g. keratins, 8-12nm).
+  Actin gives the outer cytoplasmic layer (cortex) a gel-like consistency.
+- Peroxisome: Organelle that catabolizes or detoxifies by removing H from
+  substrates, binding it to O2 to form Hydrogen Peroxide (H2O2), then Water.
+- Cilia[n]: Microtubule-containing extensions that project from some cells.
+  Often motile.  Most vertebrate cells have 1 signal-receiving cilium called
+  Primary Cilium.

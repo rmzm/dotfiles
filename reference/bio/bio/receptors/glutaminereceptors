@@ -1,0 +1,15 @@
+Ionotropic:
+- AMPA: LGIC for Ca2+, Na+, K+
+- Kainate: LGIC for Na+, K+, (presynaptic: -, postsynaptic: +)
+- NMDA: LGIC, non-selective to cations
+
+Metabotropic: (mGluRn with n in [brackets])
+- Group I [1,5]: Class C, Gq coupled (+)
+- Group II [2,3]: Class C, Gi/G0 coupled (-)
+- Group III [4,6,7,8]: Class C, Gi/G0 coupled (-)
+| http://en.wikipedia.org/w/index.php?title=Ligand-gated_ion_channel&oldid=617043269
+| http://en.wikipedia.org/w/index.php?title=Glutamate_receptor&oldid=619583192
+| http://en.wikipedia.org/w/index.php?title=NMDA_receptor&oldid=622857844
+| http://en.wikipedia.org/w/index.php?title=Metabotropic_glutamate_receptor&oldid=619582011
+| http://en.wikipedia.org/w/index.php?title=Kainate_receptor&oldid=619582714
+| http://en.wikipedia.org/w/index.php?title=AMPA_receptor&oldid=623989938

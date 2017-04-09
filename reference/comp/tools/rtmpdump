@@ -1,0 +1,7 @@
+# Add firewall rule to proxy rtmp traffic to rtmpsuck
+sudo iptables -t nat -A OUTPUT -p tcp --dport 1935 -m owner \! --uid-owner root -j REDIRECT
+# Start rtmpsuck
+sudo rtmpsuck
+# Watch the output of rtmpsuck and construct command as following:
+rtmpdump -v -r '$tcUrl$Playpath' -p '$swfUrl' -o $out.flv
+| http://pclosmag.com/html/Issues/201104/page19.html

@@ -1,0 +1,19 @@
+### Symmetric ###
+* DES (Data Encryption Standard): BROKEN, 56-bit key
+* 3DES: 3*56-bit keys, but effective key length is only
+  2*56 = 112bit due to meet-in-the-middle attack.
+  ciphertext=Encr(Decr(Encr(plaintext))) using DES
+* AES (Advanced Encryption Standard)/Rijndael: 128/192/256-bit
+  key, 128-bit block size
+
+### Public Key Crypto ###
+* Diffie-Hellman: establish shared secret over insecure connection
+  Vulnerable to MITM, requiring additional authentification
+* RSA (Rivest, Shamir, Aldeman): BROKEN with keysize <768bit.
+  Based on factoring of large integers, vulnerable to shor algo
+* ElGamal: Based on DH
+* DSA (Digital Signature Algorithm): relies on the entropy,
+  secrecy, and uniqueness of the random signature value!
+
+### Other ###
+RC4 (ARCFOUR): BROKEN

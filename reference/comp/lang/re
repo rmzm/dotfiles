@@ -1,0 +1,9 @@
+# Modes: i=ignorecase, x=freespace, m=multiline
+(?:group)  # non-capturing group
+(?!group)  # negative lookahead
+(?=group)  # positive lookahead
+(?<!group) # negative lookbehind
+(?<=group) # positive lookbehind
+(?X) (?-X) # turn mode X on/off
+(?P<name>group)  # named groups
+<([A-Z]*)\b[^>]*>.*?</\1> # backreferece [this matches html tags]

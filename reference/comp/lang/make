@@ -1,0 +1,11 @@
+VARIABLE = foo bar
+TIMESTAMP = $(shell date +%s)
+PREFIX ?= /
+
+.PHONY: foo
+
+foo:
+    echo $(TIMESTAMP)
+    for f in a b; do \
+        cat $$f; \
+    done

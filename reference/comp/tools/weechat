@@ -1,0 +1,4 @@
+2238 kuyatzu: /set weechat.notify.irc.freenode.#archlinux.de none
+2238 kuyatzu: hut: ^
+2238 kuyatzu: oder /buffer notify none
+

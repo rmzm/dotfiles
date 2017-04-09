@@ -1,0 +1,29 @@
+<A> Ala Alanine         (H) -CH₃
+<B> Asx Asparagine or Aspartic Acid
+<C> Cys Cysteine        ( ) -CH₂-<S>H
+<D> Asp Aspartic Acid   (-) -CH₂-CO₂
+<E> Glu Glutamic Acid   (-) -CH₂-CH₂-CO₂
+<F> Phe Phenylalanine  E(H) -CH₂-Phenyl
+<G> Gly Glycine         ( ) -H
+<H> His Histidine      E(+) -CH₂-Imidazole
+<I> Ile Isoleucine     E(H) -C(CH₃)-CH₂-CH₃
+<J> Xle Leucine or Isoleucine
+<K> Lys Lysine         E(+) -CH₂-CH₂-CH₂-CH₂-<N>H₃
+<L> Leu Leucine        E(H) -CH₂-C(CH₃)₂
+<M> Met Methionine     E(+) -CH₂-CH₂-<S>-CH₃
+<N> Asn Asparagine      (P) -CH₂-CO-<N>H₂
+<O> Pyl Pyrrolysine     (?) -CH₂-CH₂-CH₂-CH₂-<N>H-CO-Pyrroline
+<P> Pro Proline         ( ) -CH₂-CH₂-CH₂- (cyclic connection to N)
+<Q> Gln Glutamine       (P) -CH₂-CH₂-CO-<N>H₂
+<R> Arg Arginine        (+) -CH₂-CH₂-CH₂-<N>H-C(<N>H₂)₂
+<S> Ser Serine          (P) -CH₂-OH
+<T> Thr Threonine      E(P) -CH(CH₃)-OH
+<U> Sec Selenocysteine  ( ) -CH₂-<Se>H
+<V> Val Valine         E(H) -CH(CH₃)₂
+<W> Trp Tryptophan     E(H) -CH₂-Indole
+<Y> Tyr Tyrosine        (H) -CH₂-Phenyl-OH
+<X> Xaa Unknown, used when amino acid doesn't matter
+<Z> Glx Glutamine or Glutamic Acid
+| E = essential, + = positive/acidic, - = negative/basic
+| H = hydrophobic, P = polar/uncharged
+| https://upload.wikimedia.org/wikipedia/commons/a/a9/Amino_Acids.svg

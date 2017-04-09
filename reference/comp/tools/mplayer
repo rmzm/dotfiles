@@ -1,0 +1,4 @@
+mpv     --af scaletempo --softvol=yes
+mplayer  -af scaletempo  -mixer software
+mpv --softvol-max=1000
+mplayer -vf eq2=1:-1  # inverts the video

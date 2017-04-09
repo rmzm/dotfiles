@@ -1,0 +1,13 @@
+# Strip off affixes: #/% = shortest, ##/%% = longest match
+echo ${var#pefix} ${var%suffix}
+echo ${!#}     # Last argument to a function
+set -- a b c   # set $@ to a,b,c; updating $1/$2/$3 along the way
+echo ${var:-defaultvalue}  # Set default value
+
+set -e   # exit as soon as an error appears
+
+IFS="<space><tab><newline>"  # Internal Field Separator
+TAGS=(ranger minirc) for tag in ${TAGS[@]}; do echo "$tag"; done
+while read line; do echo $line; done < <(cat /foo)
+
+alt+shift+` = list all users

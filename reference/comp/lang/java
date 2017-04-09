@@ -1,0 +1,2 @@
+dex2jar = converts classes.dex file into .jar containing all the classes
+jd-gui = decompiler of .class files

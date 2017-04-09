@@ -1,0 +1,17 @@
+- Bekenstein Bound: amount of information that can be stored within a sphere to
+  the entropy of a black hole with the same surface area.
+  - $bits <= 2 * PI * c * $r * $mass / (ħ * ln(2)) ≈ 2.577e43 * $mass * $r
+| https://en.wikipedia.org/wiki/Bekenstein_bound
+- Bremermann's Limit: maximum computation speed
+  - speed in bits/s/kg = c² / h ≈ 1.36e50  (10e93 = transcomputational problem)
+  - Transcomputational problem: >10e93 bits - hitting the bremermann limit for
+    a computer the size of the earth within a time period the age of the earth
+| https://en.wikipedia.org/wiki/Bremermann's_limit
+| https://en.wikipedia.org/wiki/Transcomputational_problem
+- Landauer's Limit: minimum energy consuption to erase 1 bit
+  - E = k * $temp * ln(2) ≈ 0.0172eV at 20°C # k = boltzmann's constant
+| https://en.wikipedia.org/wiki/Landauer's_principle
+- Margolus-Levitin theorem: maximum computation speed per energy consumption
+  - speed in operations/second/joule <= 6e33 operations
+| https://en.wikipedia.org/wiki/Margolus-Levitin_theorem
+| See also: https://en.wikipedia.org/wiki/Limits_to_computation

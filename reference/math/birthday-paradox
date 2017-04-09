@@ -1,0 +1,6 @@
+Chance for >=2 numbers being the same when picking n integers from [1,d]:
+    p(n, d) = 1-exp(-n*(n-1)/(2*d)
+Number n of integers needed to be drawn from [1,d] to get a probability of >=p
+for 2 identical integers:
+    n(p, d) = sqrt(2*d*ln(1/(1-p)))
+

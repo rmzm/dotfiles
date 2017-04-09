@@ -1,0 +1,16 @@
+neato out.dot -Gsep=+20 -Goverlap=false -Tpng -o out.png
+
+digraph $name {
+    subgraph cluster_foo {
+        node1, node2, ...;
+    }
+    graph [rankdir="LR" splines=ortho]; // splines=polyline
+    edge [fontsize=12];
+    node [fontname=mono];
+    node1 -> node2;
+    node2 -> node3, node4, node5;
+}
+
+gvpr -c 'N[$.degree==0]{$.style="invis"}' mygraph.dot | dot ...
+
+http://www.graphviz.org/content/hiding-node-have-no-arrows-connected

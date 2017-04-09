@@ -1,0 +1,11 @@
+- rot13: g?
+- use spaces/tabs: set et / noet  {expandtab}
+- tab width: set sw=4 ts=4 sts=4  {shiftwidth tabstop softtabstop}
+- ^Vu<code> inserts unicode
+
+substitute multiple files:
+1. argadd *
+2. argdo %s/a/b/gc
+
+Vundle: :PluginInstall | :PlugniUpdate
+| https://github.com/gmarik/Vundle.vim

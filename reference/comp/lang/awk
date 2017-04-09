@@ -1,0 +1,1 @@
+awk -v pattern="$foo" -v rep="$bar" '{ gsub(pattern, rep); } 1'

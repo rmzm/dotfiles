@@ -1,0 +1,1 @@
+ps -eo pcpu | awk '{cpu_load+=$1} END {print cpu_load}'

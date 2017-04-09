@@ -1,0 +1,6 @@
+pip install --user --upgrade virtualenv
+mkdir env
+virtualenv env
+source env/bin/activate
+pip install -r REQUIREMENTS.txt
+deactivate

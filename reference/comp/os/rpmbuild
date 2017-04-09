@@ -1,0 +1,4 @@
+http://openprinting.org/download/cups-filters/cups-filters-1.8.2.tar.xz
+rpm -i cups-lpd-2.1.3-1.x86_64.rpm 
+rpm -e --no-deps 
+rpmbuild -ta cups-2.1.3-source.tar.bz2

@@ -1,0 +1,11 @@
+gpg --full-gen-key
+gpg --list-keys
+gpg --verify $file.sig
+gpg --export-secret-key -a "User Name" > private.key
+# Sign keys
+    gpg --sign-key <name>
+    gpg --send-keys <id>
+
+
+# Generate a detached signature for a file
+    gpg --sign -b $file

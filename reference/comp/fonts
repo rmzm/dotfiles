@@ -1,0 +1,11 @@
+|https://en.wikipedia.org/wiki/Artwiz#The_fonts
+fc-list # lists all fonts
+
+# Disable antialiasing:
+Xft.antialias:false
+
+# Change urxvt font on the fly:  (s/710/711/; for bold font)
+urxvt*keysym.Mod4-1: command:\033]710;xft:font:pixelsize=12,xft:alternativefont:pixelsize=12\007
+
+firefox-font: Coda
+slick font: Tinos

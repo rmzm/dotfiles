@@ -1,0 +1,3 @@
+- differential equations O_O
+    - exp(x)              is the only function with d /dx (exp(ax)) ==  a*exp(ax)
+    - sin(x) (and cos(x)) is the only function with d²/dx²(sin(ax)) == -a*sin(ax)

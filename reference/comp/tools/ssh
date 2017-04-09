@@ -1,0 +1,6 @@
+# ssh tunnel:
+ssh -C2TNn -D 8080 hut@lepus.uberspace.de
+sudo ssh -C2TNn -L 22:navier.gdv.uni-hannover.de:22 rzimbelmann@login.gdv.uni-hannover.de
+# and connect through socks 5 proxy in firefox
+
+ssh -L 0.0.0.0:8080:target:80 [midpoint|localhost]

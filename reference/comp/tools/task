@@ -1,0 +1,15 @@
+- statistics:
+    - stats
+    - burndown.{daily,weekly,monthly}
+    - calendar
+    - ghistory.{annual,monthly}
+    - history.{annual,monthly}
+    - timesheet
+- management:
+    - context {job,home}
+        - context define job +job
+    - ready
+    - cat file | xargs -L 1 task add proj:foo due:bar
+    - task snapgene mod +uni
+    - task N start
+put file names like @@foo/bar in descriptions. urxvt maps them to ~/stuff/short/foo/bar

@@ -1,0 +1,2 @@
+tcpdump -D # list devices, specify one with -i $interface
+tcpdump -A -i any port 443

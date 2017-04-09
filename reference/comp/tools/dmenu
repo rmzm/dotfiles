@@ -1,0 +1,4 @@
+DMENU="dmenu -b -fn -*-terminus-bold-r-*-*-12-*-*-*-*-*-*-* "\
+"-nb #000000 -nf #aa5533 -sb #885533 -sf #ffffff"
+
+OUTPUT="$(echo option1 option2 | sort | $DMENU | tail -n 1)"

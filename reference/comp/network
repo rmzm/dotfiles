@@ -1,0 +1,5 @@
+arp -a  # list MAC addresses (or use nmap as root)
+netstat -tulpn  # list services
+netstat -tupn   # list connections
+ifconfig eth0 hw ether 00:11:22:33:44:55
+netsed # alter contents of packets on the fly

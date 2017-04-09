@@ -1,0 +1,15 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+        <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+        <script src="jquery2.min.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <style type="text/css">
+            table, td, tr { border-collapse: collapse; }
+            div.foo { white-space: pre-line; }
+        </style>
+    </head>
+    ...
+</html>

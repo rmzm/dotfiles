@@ -1,0 +1,4 @@
+npm run build
+buggy-library query translator -n | jq '.[].id'
+buggy-library query translator -n | jq '.[] | {id:.id, version:.version}'
+npm link - use local repositories rather than installed ones

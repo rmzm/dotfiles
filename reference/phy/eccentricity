@@ -1,0 +1,6 @@
+The parameter of an orbiting object that determines by how much its orbit
+deviates from a perfect circle.
+- circular orbit: e = 0
+- elliptic orbit: 0 < e < 1
+- parabolic trajectory: e = 1
+- hyperbolic trajectory: e > 1

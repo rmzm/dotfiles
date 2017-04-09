@@ -1,0 +1,10 @@
+@wrapper
+def main(win):
+    start_color()
+    curs_set($bool)      # may fail on crappy mac terminals
+    use_default_colors() # same here
+    init_pair($id, $fg, $bg)  # ensure values are <curses.COLORS!
+    color = color_pair($id)
+    if win.getch() in (KEY_DOWN, ord("\n"), ascii.ESC):
+        win.addstr("string", color | A_BOLD)
+        win.addnstr($y, $x, "string", color, $length)

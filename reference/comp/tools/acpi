@@ -1,0 +1,1 @@
+/proc/acpi/wakeup  <-- write device names into it to toggle state

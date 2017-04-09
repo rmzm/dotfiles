@@ -1,0 +1,28 @@
+AA[AG]  K <Lys>ine
+AA[CU]  N <As>pargi<n>e
+AC*     T <Thr>eonine
+AG[AG]  R <Arg>inine
+AG[CU]  S <Ser>ine
+AU[ACU] I <I>so<le>ucine
+AUG     M <Met>hionine, <START>
+
+CA[AG]  Q <Gl>utami<n>e
+CA[CU]  H <His>tidine
+CC*     P <Pro>line
+CG*     R <Arg>inine
+CU*     L <Leu>cine
+
+GA[AG]  E <Glu>tamic Acid
+GA[CU]  D <Asp>artic Acid
+GC*     A <Ala>nine
+GG*     G <Gly>cine
+GU*     V <Val>ine
+
+UA[AG]  <STOP>
+UA[CU]  Y <Tyr>osine
+UC*     S <Ser>ine
+UGA     <STOP>
+UG[CU]  C <Cys>teine
+UGG     W <Tr>y<p>tophan
+UU[AG]  L <Leu>cine
+UU[UC]  F <Phe>nylalanine

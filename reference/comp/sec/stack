@@ -1,0 +1,4 @@
+heap....<--..............-->....stack
+- im stack sind:
+    - lokale variablen
+    - funktionsreturnzeiger

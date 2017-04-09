@@ -1,0 +1,19 @@
+git log --format='%aN' | sort -u
+git shortlog -s
+
+git ls-tree -r HEAD | cut -f 2 | xargs -n1 git blame --line --porcelain | grep "author " | sort | uniq -c | sort -nr
+
+git archive --prefix='foo/' --format=tar HEAD | gzip > out.tar.gz
+
+# remove untracked files from git branch:
+git clean [-f | --dry-run | -i]
+
+--------------------------+-------------------------------------
+* Stage deleted files     |  git add -u
+* Find detached commits   |  git reflog
+                          |  git fsck --unreachable
+* `tig` replacement       |  git log --graph --oneline [-a]
+* Headless branch         |  git symbolic-ref HEAD refs/heads/branchname; git commit
+                     OR   |  git checkout --orphan
+* Bisect                  |  git bisect start $bad [$good]
+--------------------------+-------------------------------------

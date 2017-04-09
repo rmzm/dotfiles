@@ -1,0 +1,13 @@
+# Media layers
+1. Physical     | Bit             | DSL, USB
+2. Data Link    | Bit/Frame       | PPP, IEEE 802.2
+3. Network      | Packet/Datagram | IPv4, IPsec, ICMP
+# Host layers
+4. Transport    | Segments        | TCP, UDP
+5. Session      | Data            | RPC, PAP
+6. Presentation | Data            | ASCII, JPEG
+7. Application  | Data            | HTTP, FTP, SMTP
+# User layers
+8. Individual
+9. Organization
+10. Government

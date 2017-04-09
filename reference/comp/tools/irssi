@@ -1,0 +1,4 @@
+# Join a window with another one
+/join -window -$server $channel
+
+/ignore -network $network $username QUITS JOINS PARTS

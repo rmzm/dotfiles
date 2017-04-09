@@ -1,0 +1,12 @@
+generate .raw image from qemu .img file with `qemu-img convert $image.img -O raw $out.raw`
+kpartx (from multipath-tools) can mount .raw images
+mount /dev/mapper/loop0p1 /mnt
+
+- virsh
+    - list
+
+
+Ungrab mouse: Ctrl+Alt+g
+
+Command to boot usb stick:
+sudo qemu-system-x86_64 --enable-kvm -drive file=/dev/sdb,media=disk -m 2G -net nic -net user -cpu host -vga cirrus

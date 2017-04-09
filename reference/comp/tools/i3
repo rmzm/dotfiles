@@ -1,0 +1,8 @@
+* mod+x
+    * l -> mode "lockin"
+        * mod+F8 -> mode "default"
+    * d -> mode "display"
+* Pymodoro
+    * Start: mod+F12
+    * Stop:  mod+shift+F12
+* cleanhome: mod+shift+F11

@@ -1,0 +1,7 @@
+RAID 0: striping without mirroring/parity (+performance)
+RAID 1: mirroring without parity/striping (+redundancy)
+RAID 2: (obsolete)
+RAID 3: (obsolete)
+RAID 4: (obsolete)
+RAID 5: block-level striping, parity (1 disk can fail)
+RAID 6: block-level striping, 2x parity (2 disks can fail)

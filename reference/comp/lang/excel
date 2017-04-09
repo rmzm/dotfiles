@@ -1,0 +1,4 @@
+!= = <>
+CSE formula: Confirmed with Ctrl+Shift+Enter, e.g:
+    =SUM(IF(D5:D55="MG", IF(F5:F55="Project", E5:E55)))
+vlookup() - search for value in a table

@@ -1,0 +1,17 @@
+# cut out every second frame from gifs
+gifsicle $infile.gif `seq -f "#%g" 0 2 99` --unoptimize -O2 -o $outfile.gif
+
+# Convert gif to avi:
+# 1. use either of these commands to turn the gif into jpegs
+convert $infile.gif test%08d.jpg
+mplayer -vo jpeg $infile.gif
+# 2. turn the jpegs into an avi
+ffmpeg -r 25 -i %08d.jpg -y -an $outfile.avi
+
+# Invert an image
+convert -negate $infile $outfile
+
+# SVG -> PNG using inkscape
+inkscape -z -e $out.png -w 1024 -h 1024 $in.svg
+
+convert -trim $in $out # autocrop

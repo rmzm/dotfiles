@@ -1,0 +1,4 @@
+$ nasm -f elf test.asm
+$ ld -o test test.o
+$ objdump -d test | objdump-to-shellcode
+| http://www.vividmachines.com/shellcode/shellcode.html#linex2

@@ -1,0 +1,9 @@
+Howto embed fonts in svg: http://fob.po8.org/node/663
+<style>
+    <![CDATA[
+        @font-face {
+            font-family: "...";
+            src: url("data:application/font-woff;charset=utf-8;base64,...");
+        }
+    ]]>
+</style>
