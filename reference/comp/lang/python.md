@@ -17,9 +17,8 @@ jump into a REPL after program execution: #!/usr/bin/(i)python -i
 1943 imp: gprof2dot -f pstats profile.pstats | dot -Tpng -o mine.png
 
 # Add times
-from datetime import *
-d = datetime.now()
-(d + timedelta(hours=6.5)).strftime("%H:%M:%S")
+datetime.datetime.now() - dateutil.relativedelta.relativedelta(years=1)
+(datetime.datetime.now() - datetime.timedelta(hours=6.5)).strftime("%H:%M:%S")
 
 modelviz by antonio cadevoni
 
