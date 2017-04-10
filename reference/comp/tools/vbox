@@ -1,0 +1,3 @@
+load these modules on guest system to get mount.vboxsf:
+
+modprobe -a vboxguest vboxsf vboxvideo

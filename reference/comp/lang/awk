@@ -1,1 +1,3 @@
-awk -v pattern="$foo" -v rep="$bar" '{ gsub(pattern, rep); } 1'
+* awk -v pattern="$foo" -v rep="$bar" '{ gsub(pattern, rep); } 1'
+* count occurances of a character per row:
+    * awk -F "char" '{print NF-1, NR}' <file>

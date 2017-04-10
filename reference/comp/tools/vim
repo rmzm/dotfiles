@@ -9,3 +9,6 @@ substitute multiple files:
 
 Vundle: :PluginInstall | :PlugniUpdate
 | https://github.com/gmarik/Vundle.vim
+
+:r !date
+^\^n - exit terminal

@@ -1,0 +1,3 @@
+- zypper {in,rm,se} $packagename
+- list all installed programs: rpm -qa --last
+- list all files of a package: rpm -ql $packagename

@@ -22,3 +22,6 @@ d = datetime.now()
 (d + timedelta(hours=6.5)).strftime("%H:%M:%S")
 
 modelviz by antonio cadevoni
+
+# Python 2
+print >>f, 'some text'

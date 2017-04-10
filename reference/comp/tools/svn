@@ -1,0 +1,7 @@
+kdesvn
+svn diff -r $revision1:$revision2 | colordiff
+svn up -r $revision
+
+svn co svn://$server/repository/typing
+svn ls svn://$server/repository/
+svn log -r $revision
